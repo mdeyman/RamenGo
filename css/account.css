@@ -1,0 +1,52 @@
+.account__order-status{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    height: auto;
+    border: 1px solid #E5E8EB;
+    padding: 20px;
+    border-radius: 10px;
+}
+.account__order-status .tracking__order-btn{
+    padding: 12px 24px;
+    border: 2px solid var(--secondary);
+    border-radius: 23px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 17px;
+    color: var(--secondary);
+    background: transparent;
+    cursor: pointer;
+    margin-right: 16px;
+}
+.account__order-status .cancel__order-btn{
+    width: 128px;
+    height: 41px;
+    background: var(--secondary);
+    border-radius: 23px;
+    border: 2px solid var(--secondary);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 17px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.account__status-desciption p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: var(--main);
+}
+.account__status-desciption h2{
+    margin-bottom: 6px;
+    color: var(--main);
+}
+.account__status-desciption h3{
+    margin-top: 24px;
+    color: var(--main);
+}
+.delivery__phone-number span{
+    text-decoration: underline;
+    cursor: pointer;
+}
